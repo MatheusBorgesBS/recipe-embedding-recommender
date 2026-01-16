@@ -31,8 +31,11 @@ The recommendation engine is built through a multi-step process detailed in the 
 *   **`recipes_raw.zip`**: The raw dataset, a zip archive containing three JSON files with a total of 125,164 recipes.
 
 ## How to Use
-
-To interact with the chatbot, run the `chatbot.py` script from your terminal.
+### First install dependencies
+```bash
+pip install -r requirements.txt
+```
+Now, o interact with the chatbot, run the `chatbot.py` script from your terminal.
 
 ```bash
 python chatbot.py
